@@ -1,0 +1,6 @@
+content   imgurfox                              jar:chrome/imgurfox.jar!/content/
+content   imgurfox-crop                         jar:chrome/imgurfox.jar!/content/crop/ contentaccessible=yes
+locale    imgurfox             en-US            jar:chrome/imgurfox.jar!/locale/en-US/
+skin      imgurfox             classic/1.0      jar:chrome/imgurfox.jar!/skin/
+overlay   chrome://browser/content/browser.xul  chrome://imgurfox/content/firefoxOverlay.xul
+resource  imgurfox                              modules/
