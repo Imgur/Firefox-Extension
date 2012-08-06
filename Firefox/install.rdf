@@ -5,7 +5,7 @@
 
   <RDF:Description RDF:about="urn:mozilla:install-manifest">
     <em:id>giorgio@gilestro.tk</em:id>
-    <em:version>1.0.3</em:version>
+    <em:version>1.0.4</em:version>
     <em:type>2</em:type>
     <em:optionsURL>chrome://imgurfox/content/imgurfoxPreferences.xul</em:optionsURL>
 
@@ -16,7 +16,7 @@
         <em:maxVersion>4.0</em:maxVersion>
       </RDF:Description>
     </em:targetApplication>
-   
+
     <em:name>Imgur Uploader</em:name>
     <em:description>Uploads images to imgur.com.</em:description>
     <em:creator>Imgur</em:creator>
@@ -25,6 +25,6 @@
     <em:developer>Kory Kirk</em:developer>
     <em:iconURL>chrome://imgurfox/skin/imgur.png</em:iconURL>
     <em:homepageURL>http://www.imgur.com/</em:homepageURL>
-  </RDF:Description>      
+  </RDF:Description>
 </RDF:RDF>
 
