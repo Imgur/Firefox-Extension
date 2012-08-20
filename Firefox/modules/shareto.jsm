@@ -1,8 +1,8 @@
-var EXPORTED_SYMBOLS = ["ShareTo"];
+var EXPORTED_SYMBOLS = ["ImgurShareTo"];
 
 var enc = encodeURIComponent;
 
-var ShareTo = {
+var ImgurShareTo = {
   reddit:      function(url) "http://reddit.com/submit?url="+enc(url),
   digg:        function(url) "http://digg.com/submit?url="+enc(url),
   twitter:     function(url) "http://twitter.com/share?url="+enc(url),
